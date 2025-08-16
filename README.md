@@ -27,28 +27,28 @@ It includes the following components:
 ## Project Structure
 
 multi-tier-aws-terraform/
-│── main.tf             # Root module – calls VPC, EC2, RDS, ALB
-│── variables.tf        # Input variables
-│── outputs.tf          # Outputs (ALB DNS, DB endpoint, etc.)
-│── terraform.tfvars    # Variable values (not committed)
+│── main.tf # Root module – calls VPC, EC2, RDS, ALB
+│── variables.tf # Input variables
+│── outputs.tf # Outputs (ALB DNS, DB endpoint, etc.)
+│── terraform.tfvars # Variable values (not committed)
 │── modules/
-│   ├── vpc/            # VPC, subnets, IGW, NAT
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   └── outputs.tf
-│   ├── ec2/            # Launch template, Auto Scaling Group
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   └── outputs.tf
-│   ├── alb/            # Application Load Balancer
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   └── outputs.tf
-│   └── rds/            # RDS MySQL DB
-│       ├── main.tf
-│       ├── variables.tf
-│       └── outputs.tf
-│── README.md           # Documentation
+│ ├── vpc/ # VPC, subnets, IGW, NAT
+│ │ ├── main.tf
+│ │ ├── variables.tf
+│ │ └── outputs.tf
+│ ├── ec2/ # Launch template, Auto Scaling Group
+│ │ ├── main.tf
+│ │ ├── variables.tf
+│ │ └── outputs.tf
+│ ├── alb/ # Application Load Balancer
+│ │ ├── main.tf
+│ │ ├── variables.tf
+│ │ └── outputs.tf
+│ └── rds/ # RDS MySQL DB
+│ ├── main.tf
+│ ├── variables.tf
+│ └── outputs.tf
+│── README.md # Documentation
 
 ## Getting Started
 
