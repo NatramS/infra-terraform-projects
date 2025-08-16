@@ -49,6 +49,10 @@ multi-tier-aws-terraform/
 |       |-- variables.tf
 |       `-- outputs.tf
 `-- README.md              # Documentation
+multi-tier-aws-terraform/
+|-- main.tf                # Root module - calls VPC, EC2, RDS, ALB
+|-- variables.tf           # Input variables
+|-- outputs.tf             # Outputs (ALB DNS, DB endpoint, etc)
 
 ## Getting Started
 
