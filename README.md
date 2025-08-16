@@ -10,7 +10,7 @@ It includes the following components:
 - **RDS MySQL Database** in private subnets.
 - **Security Groups** to enforce least-privilege access.
 
-## 🏗Architecture Diagram (ASCII)
+## Architecture Diagram (ASCII)
 ```
                 Internet
                    |
